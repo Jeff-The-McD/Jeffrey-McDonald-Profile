@@ -4,7 +4,7 @@
     margin: 0;
     padding:0;
     overflow:hidden;
-    background-color:black;
+    background-color:#111;
 }
 
 /*handles the main name element in navbar*/
@@ -24,4 +24,12 @@
     text-align:center;
     padding:14px 16px ;
     text-decoration:none;
+    border-right:1px solid white;
 }
+
+.nav-item a:hover{
+    background-color:#2478ed;
+    border-right:5px solid white;
+    color:black;
+}
+
