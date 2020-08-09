@@ -8,20 +8,23 @@
 
 #name{
     float:left;
+    background-color: red;
+}
+#name a{
     display:block;
     color:white;
-    background-color: red;
-    text-align: center;
-    padding:14px 16px;
+    text-align:center;
+    padding:14px 16px ;
     text-decoration: none;
 }
 .nav-item{
     float:left;
 }
+
 .nav-item a{
     display:block;
     color:white;
     text-align:center;
-    padding:14px 16px 0 20px;
+    padding:14px 16px ;
     text-decoration:none;
 }
