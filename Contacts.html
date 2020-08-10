@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact</title>
 </head>
 <body>
@@ -18,13 +19,49 @@
         </nav>
        </header>
 
+
+      
+       
        <form id="contactform" action="https://formspree.io/mzbvpdlz" method="POST">
+        <h1 id = "contact form title">Let's Get in touch!</h1>
+           <h2>Full Name</h2>
            <input type="text"  name = "name" placeholder="Your name">
+           <h2>Email </h2>
            <input type="email" name = "_replyto" placeholder="Your email">
+           
            <input type = "hidden" name="_subject" value = "Website contact"/>
+           <h2>Message</h2>
            <textarea placeholder="Your messeage" ></textarea>
            <input type="text" name = _gotcha style = "display:none"/>
            <input type = "submit" value ="Send">
        </form>
+
+       <footer>
+           
+           <div class="container">
+               <div class="contact-method">
+                   <a href="">
+                       <i class="fa fa-envelope" style="font-size:64px;color:grey;display: inline-block;"></i>
+                   </a>
+                   <span>jffrmcdonald@gmail.com</span>
+               </div>
+               <div class="contact-method">
+                <a href="https://www.linkedin.com/in/jeffrey-mcdonald-a8a886190/">
+                    <i class="fa fa-linkedin-square" style="font-size:64px;color:#2056ab;display: inline-block;"></i>
+                    <span>LinkedIn</span>
+               </a>
+               
+               </div>
+
+               <div class="contact-method">
+                <a href="https://github.com/Living-Neutral">
+                    <i class="fa fa-github" style="font-size:64px;color:black; display: inline-block;"></i>
+                    <span>Github</span>
+               </a>
+               </div> 
+           </div>
+
+          
+       </footer>
 </body>
 </html>

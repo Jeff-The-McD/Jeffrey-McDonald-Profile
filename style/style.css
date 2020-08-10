@@ -1,3 +1,13 @@
+/* Website colors
+Main color = #0b0909
+complementary =  #e63232
+accent = #2e882e
+grey 1 = #4b3434
+grey 2 = #fbf9f9
+
+*/
+
+
 /*navbar styling*/
 #navbar{
     list-style: none;
@@ -10,17 +20,24 @@
 /*handles the main name element in navbar*/
 #name{
     float:left;
-    background-color: red;
+    background-color: #e63232;
+}
+
+#name a:hover{
+    background-color:azure;
+    color:black;
 }
 
 /*handles the rest of the elements */
 .nav-item{
     float:left;
+    
 }
 
 .nav-item a{
     display:block;
     color:white;
+    
     text-align:center;
     padding:14px 16px ;
     text-decoration:none;
@@ -28,8 +45,79 @@
 }
 
 .nav-item a:hover{
-    background-color:#2478ed;
+    background-color:azure;
     border-right:5px solid white;
     color:black;
 }
+
+
+
+/*contact page*/
+
+#fa fa-linkedin-square{
+    font-size:64px
+}
+/*styling form*/
+#contactform{
+    border-radius: 5px;
+    background-color: #4b3434;
+    padding:20px;
+    size: 200px,; 
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+}
+
+#contactform h1{
+    color:white;
+}
+
+input[type=text]{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+
+input[type=email],select{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    top: 50%;    
+    text-align: center;
+    display: inline-block;
+}
+
+.contact-method {
+    display:inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
 
