@@ -35,15 +35,8 @@ p {
 
 /*handles the main name element in navbar*/
 
-#name {
-    float: left;
-    background-color: #e63232;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#name a:hover {
-    background-color: azure;
-    color: black;
+.active {
+    background-color: red;
 }
 
 
