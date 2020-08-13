@@ -20,6 +20,10 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body {
+    display: block;
+}
+
 
 /*navbar styling*/
 
@@ -61,6 +65,41 @@ p {
     background-color: azure;
     border-right: 5px solid white;
     color: black;
+}
+
+
+/*home page*/
+
+#picme {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+
+/*bits about me main sections*/
+
+.bits_about_me {
+    padding: 20px 80px 20px 80px;
+}
+
+
+/*handles the headings on this page*/
+
+.bits_about_me h1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 36px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.bits_about_me p {
+    text-align: left;
+    line-height: 1.6em;
+    padding-left: 125px;
+    padding-right: 125px;
 }
 
 
@@ -139,8 +178,6 @@ textarea {
 .contact-method a {
     text-decoration: none;
 }
-
-
 
 .contact-method span {
     display: inline-block;
