@@ -17,7 +17,7 @@ h3 {
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -140,7 +140,10 @@ textarea {
     text-decoration: none;
 }
 
+
+
 .contact-method span {
+    display: inline-block;
     font-size: 24px;
     color: #111;
     text-decoration: none;
