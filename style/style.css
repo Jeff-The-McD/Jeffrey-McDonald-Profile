@@ -35,14 +35,14 @@ body {
     position: relative;
     overflow: hidden;
     background-color: rgb(39, 35, 35);
-    
+
 }
 
 
 /*handles the main name element in navbar*/
 
 .active {
-    background-color: red;
+    background-color: rgb(204, 25, 25);
 }
 
 
