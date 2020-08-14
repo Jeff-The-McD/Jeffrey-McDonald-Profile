@@ -25,9 +25,7 @@ body {
     margin:auto;
 }
 
-body p{
-    line-height: 1.5em;
-}
+
 
 
 /*navbar styling*/
@@ -200,6 +198,7 @@ body p{
     padding-left:100px;
     padding-right:100px;
     font-size:20px;
+    line-height: 2em;
     
 }
 
