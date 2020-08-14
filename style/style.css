@@ -223,12 +223,14 @@ body {
 }
 
 .overlay-container:hover .overlay{
-    opacity:1;
+    opacity:.75;
 }
 
 .overlay-text{
-    color:white;
+    color:black;
     font-size:36px;
+    text-decoration: underline;
+    font-weight: bold;
     position: absolute;
     top:50%;
     left:50%;
